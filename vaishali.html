@@ -61,7 +61,13 @@
  <p><big><big><b>Vaishali Srivastava</b>- S2W2526-1001</big></big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
    
-      <button onclick="closeTab()"> <i class="fas fa-sign-out-alt"></i></button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button onclick="closeTab()"><i class="fas fa-sign-out-alt"></i></button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <script>
+    function closeTab() {
+      window.open('', '_self'); // Required to make some browsers allow window.close()
+      window.close();
+    }
+  </script>
      <a href="vaishali.html" title="Logout" style="text-decoration: none; color: #f70a0a; font-size: 18px;">
         <i class="fa">&#xf021;</i>Refresh
       </a>
